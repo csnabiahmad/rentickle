@@ -10,9 +10,8 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.ropstam.demoapp.app.utilities.AppCommonListner
+import com.ropstam.demoapp.app.AppCommonListner
 import com.ropstam.demoapp.databinding.FragmentHomeBinding
-import com.ropstam.demoapp.model.CategoriesModel
 import com.ropstam.demoapp.ui.ItemDetailsActivity
 import com.ropstam.demoapp.ui.adapter.CategoryViewAdapter
 import com.ropstam.demoapp.ui.adapter.ProductsViewAdapter

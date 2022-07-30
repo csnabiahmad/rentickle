@@ -18,6 +18,7 @@ out/
 # release/
 
 # Gradle files
+.idea/
 .gradle/
 build/
 
@@ -83,3 +84,21 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+
+
+# Applications
+*.app
+*.exe
+*.war
+
+# Large media files
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+*.zip
+*.rar
+*.apk
+*.aab

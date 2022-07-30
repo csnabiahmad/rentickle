@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
 import com.ropstam.demoapp.R
-import com.ropstam.demoapp.app.utilities.AppCommonListner
+import com.ropstam.demoapp.app.AppCommonListner
 import com.ropstam.demoapp.databinding.ListItemViewBinding
 import com.ropstam.demoapp.model.ItemModel
 

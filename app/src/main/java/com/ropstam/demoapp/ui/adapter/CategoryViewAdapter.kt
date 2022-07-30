@@ -6,11 +6,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
 import com.ropstam.demoapp.R
-import com.ropstam.demoapp.app.utilities.AppCommonListner
 import com.ropstam.demoapp.databinding.ListCategoryViewBinding
-import com.ropstam.demoapp.databinding.ListItemViewBinding
 import com.ropstam.demoapp.model.CategoriesModel
-import com.ropstam.demoapp.model.ItemModel
 
 class CategoryViewAdapter(
     private val context: Context,
