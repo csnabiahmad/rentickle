@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Rentickle</string>
+    <string name="title_home">Home</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_products">Products</string>
+    <string name="title_item">Item</string>
+    <string name="item_name">Sofa Baleria</string>
+    <string name="item_rating">4.5</string>
+    <string name="text_promo">Get 10% off on this product by using coupon code RENT10</string>
+    <string name="txt_select_size">Select Size</string>
+    <string name="txt_6x6">6x6</string>
+    <string name="txt_6x5">6x5</string>
+    <string name="txt_6x4">6x4</string>
+    <string name="txt_6x3">6x3</string>
+    <string name="txt_select_tenure">Select Tenure</string>
+    <string name="txt_hint_tenure">Please Enter your tenure</string>
+    <string name="txt_add_to_cart">Add to Cart</string>
+    <string name="txt_rent">Rent</string>
+    <string name="txt_hint_search">Search for furniture, appliances etc.</string>
+    <string name="txt_categories">Our Categories</string>
+    <string name="txt_trending_products">Trending Products</string>
+    <string name="txt_recent_viewed_products">Recent Viewed Products</string>
+    <string name="txt_back">Back</string>
+    <string name="txt_refundable_deposit">Refundable Deposit</string>
+    <string name="txt_view_all_offers">View All Offers</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

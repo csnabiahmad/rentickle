@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_10sdp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/itemImage"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize"
+        android:elevation="@dimen/_2sdp"
+        app:srcCompat="@drawable/furniture" />
+
+    <TextView
+        android:id="@+id/tv_itemname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Sofa Baleria"
+        app:layout_constraintEnd_toEndOf="@+id/itemImage"
+        app:layout_constraintStart_toStartOf="@+id/itemImage"
+        app:layout_constraintTop_toBottomOf="@+id/itemImage" />
+
+    <TextView
+        android:id="@+id/tv_itemprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$859"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tv_itemname"
+        app:layout_constraintTop_toBottomOf="@+id/tv_itemname" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_2sdp"
+        android:textColor="@color/black"
+        android:text="/month"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_itemprice"
+        app:layout_constraintStart_toEndOf="@+id/tv_itemprice"
+        app:layout_constraintTop_toTopOf="@+id/tv_itemprice" />
+</androidx.constraintlayout.widget.ConstraintLayout>
